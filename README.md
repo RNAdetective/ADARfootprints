@@ -46,6 +46,11 @@ In ADARfootprints new directory you will find:
       *nuc indicate nucleotide sequences 
       *backtran indicate protein alignment back tranlated to nucleotide
       *CDS indicate that the sequences have been filtered to only contain CDS sequences according to the csv file generated.
+      
+   * a folder metadata which has a summary of information about the sequence collection including:
+   
+      *accension number,subtype,date collected,country collected in,VIPR host,GenBank host
+      *This can be used to filter sequences out of the final alignment based on any of this metadata
 
 ___
 
