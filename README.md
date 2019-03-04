@@ -51,8 +51,9 @@ ___
 
 ## Built With
 
-EMBOSS: http://emboss.open-bio.org/
-Muscle: http://www.drive5.com/muscle/muscle.html
+* EMBOSS v6.6.0.0: http://emboss.open-bio.org/
+
+* Muscle v3.8.31: http://www.drive5.com/muscle/muscle.html
 
 
 ___
