@@ -17,7 +17,7 @@ ___
 3.) Make sure you have your .fasta nucleotide sequence file with a simple name in one folder and your corresponding .gff (with the same name) info file in a seperate folder.  You can run more then one multiple fasta file at time and it will keep them seperated. If you use the virtual machine these folders are on the desktop and once you have them ready run the following command.
 
 ```
-bash /home/user/ADARfootprints.sh /home/user/Desktop/seq /home/user/Desktop/gff /home/user/ADARfootprints
+bash /home/user/ADARfootprints.sh /home/user/Desktop/seq /home/user/Desktop/gff /home/user/Desktop/meta /home/user/ADARfootprints
 
 ```
    
@@ -31,6 +31,10 @@ ___
 In ADARfootprints new directory you will find:
 
 1.) final folder containing the nucleotide aligned sequences and the nucleotide CDS only aligned sequences for every set of fasta sequences provided in the seq input folder.
+
+2.) a folder metadata which has a summary of information about the sequence collection including:
+      *accension number,subtype,date collected,country collected in,VIPR host,GenBank host
+      *This can be used to filter sequences out of the final alignment based on any of this metadata
 
 2.) there will be a folder for each set of fasta and gff files provided containing 
 
@@ -46,11 +50,6 @@ In ADARfootprints new directory you will find:
       *nuc indicate nucleotide sequences 
       *backtran indicate protein alignment back tranlated to nucleotide
       *CDS indicate that the sequences have been filtered to only contain CDS sequences according to the csv file generated.
-      
-   * a folder metadata which has a summary of information about the sequence collection including:
-   
-      *accension number,subtype,date collected,country collected in,VIPR host,GenBank host
-      *This can be used to filter sequences out of the final alignment based on any of this metadata
 
 ___
 
