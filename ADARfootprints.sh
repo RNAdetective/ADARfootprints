@@ -150,7 +150,9 @@ do
   spwkd="$lwkd"/sixpack_files
   CDSwkd="$wkd"/splitCDS
   finald="$outdir"/final
-  for dirtomake in "$lwkd" "$twkd" "$fawkd" "$spwkd" "$CDSwkd" "$finald" ;
+  inputd="$wkd"/input
+  rawd="$wkd"/raw_seq
+  for dirtomake in "$lwkd" "$twkd" "$fawkd" "$spwkd" "$CDSwkd" "$finald" "$inputd" "$rawd" ;
   do
     createdir
   done
@@ -220,4 +222,8 @@ do
   tool=tran_align # aligns nucleotides based on amino acid alignment for CDS only
   run_tool2
   cd
+  rm "$wkd"/"$f_name"temp*
+  mv "$wkd"/"$f_name".*  "$wkd"/input/
+  mv "$wkd"/"$f_name"* "$wkd"/raw_seq/
 done
+rm -rf "$outdir"/temp
