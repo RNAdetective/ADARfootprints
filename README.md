@@ -1,4 +1,5 @@
 # ADARfootprints
+[![DOI](https://zenodo.org/badge/173743064.svg)](https://zenodo.org/badge/latestdoi/173743064)
 multisequence alignments
 
 * Takes multi nucleotide sequence fasta files as input and aligns properly framed and translated amino acid sequences and then back translates coding regions into nucleotide alignments.
