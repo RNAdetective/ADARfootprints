@@ -1,3 +1,11 @@
+<p align="center">
+<img src="https://raw.githubusercontent.com/RNAdetective/ADARfootprtins/master/ADARfootprints.gif">
+ </p>
+ 
+<p align="center">Tracks ADAR editing footprints in flavivirus genomes<p align="center">
+ 
+ ***
+ 
 # ADARfootprints
 [![DOI](https://zenodo.org/badge/173743064.svg)](https://zenodo.org/badge/latestdoi/173743064)
 multisequence alignments
