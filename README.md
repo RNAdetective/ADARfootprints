@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/RNAdetective/ADARfootprints/master/ADARfootprints.gif">
+<img src="https://raw.githubusercontent.com/RNAdetective/ADARfootprints/master/ADARfootprints.jpg">
  </p>
  
 <p align="center">Tracks ADAR editing footprints in flavivirus genomes<p align="center">
