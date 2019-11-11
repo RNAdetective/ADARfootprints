@@ -3,7 +3,6 @@
  </p>
  
 <p align="center">Tracks ADAR editing footprints in flavivirus genomes<p align="center">
- 
  ***
  
 # ADARfootprints
