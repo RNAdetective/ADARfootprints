@@ -10,30 +10,39 @@
 [![DOI](https://zenodo.org/badge/173743064.svg)](https://zenodo.org/badge/latestdoi/173743064)
 multisequence alignments
 
-* Takes multi nucleotide sequence fasta files as input and aligns properly framed and translated amino acid sequences and then back translates coding regions into nucleotide alignments.
+* Takes multi nucleotide sequence fasta files with one open reading frame such as flaviviruses as input and aligns properly framed and translated amino acid sequences and then back translates coding regions into nucleotide alignments.
 
 * Takes advantage of publically available command line tools emboss and muscle tools.
 
 ___
 
 ## Getting Started
-1.) Make sure you have emboss and muscle installed or you can use the provided VM
-
-
-
-2.) Download tthe bash script.
-
-3.) Make sure you have your .fasta nucleotide sequence file with a simple name in one folder and your corresponding .gff (with the same name) info file in a seperate folder.  You can run more then one multiple fasta file at time and it will keep them seperated. If you use the virtual machine these folders are on the desktop and once you have them ready run the following command.
+1.) Get ADARfootprints:
+```
+git clone https://github.com/RNAdetective/ADARfootprints.git
+chmod +x ~/ADARfootprints/ADARfootprintsset_up.sh
 
 ```
-bash /home/user/ADARfootprints.sh /home/user/Desktop/seq /home/user/Desktop/gff /home/user/Desktop/meta /home/user/ADARfootprints
+
+2.) Make sure you have your files downloads from VIPR and located in the right directories.
+ * Download .gff files and move them to a folder named gff in your home directory
+ * Download .tsv files and move them to a folder named metadata in your home direcory
+ * Download .fasta sequences make sure they only have accession numbers in the title and move them to a folder named sequences in your home directory.
+ * Make sure all three files are named the same for example WNV.gff, WNV.tsv, WNV.fasta
+ * After starting ADARfootprints you will be prompted to supply you home directory where these three folders are located for example /media/sf_ADARfootprints
+ 
+## To Run ADARfootprints
+
+Copy and paste the following command into the terminal
 
 ```
-   
-   ***Argument 1 is the directory to find fasta files, argument 2 is the directory to find gff files, and argument 3 is the name of the directory you would like the results in.
-   
+bash ~/ADARfootprints/ADARfootprints.sh
+
+```
+or
+
+Double click on the desktop icon RunADARfootprints
 ___
-
 
 ## Output File
 
