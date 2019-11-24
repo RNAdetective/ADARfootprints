@@ -11,7 +11,7 @@ if ! [ -x "$(command -v transeq)" ]; then
   sudo apt-get install emboss
 fi
 if ! [ -x "$(command -v csvtool)" ]; then
-  echo 'Error: emboss is not installed.' >&2
+  echo 'Error: csvtool is not installed.' >&2
   sudo apt-get install csvtool
 fi
 }
