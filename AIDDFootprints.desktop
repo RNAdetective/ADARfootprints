@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Exec=/home/user/ADARfootprints/AIDDfootprints.sh
+Name=AIDDParts
+GenericName=AIDDParts
+Comment=Run AIDDParts
+Icon=/home/user/ADARfootprints/ADARfootprints.gif
+Terminal=true
+Type=Application
+Name[en_US]=AIDDFootprints.desktop
